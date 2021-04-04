@@ -1,0 +1,1245 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Alert Banner 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="MovieApplication"
+      >
+        <div
+          class="p-3 container"
+        >
+          <div
+            class="jumbotron"
+          >
+            <h1
+              class="text-center mb-4"
+            >
+              🎥 Movie and TV Show Search Application
+            </h1>
+            <div
+              class="container-fluid"
+            >
+              <div
+                class="row"
+              >
+                <div
+                  class="col-lg-8"
+                >
+                  <input
+                    class="mb-2 form-control form-control-lg"
+                    id="searchInput"
+                    placeholder="Enter the movie or TV show name here..."
+                  />
+                </div>
+                <div
+                  class="col-lg-4"
+                >
+                  <div
+                    class="mt-2 form-check"
+                  >
+                    <input
+                      class="form-check-input"
+                      id="includeTVShows"
+                      type="checkbox"
+                    />
+                    <label
+                      class="form-check-label"
+                      for="includeTVShows"
+                      title=""
+                    >
+                      Include TV Shows
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="container"
+        >
+          <div
+            class="alert alert-danger alert-dismissible"
+          >
+            We were unable to complete search at this time. Please try later!
+          </div>
+          <div
+            id="search-results"
+          >
+            <h3 />
+            <ul
+              class="list-unstyled"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="MovieApplication"
+    >
+      <div
+        class="p-3 container"
+      >
+        <div
+          class="jumbotron"
+        >
+          <h1
+            class="text-center mb-4"
+          >
+            🎥 Movie and TV Show Search Application
+          </h1>
+          <div
+            class="container-fluid"
+          >
+            <div
+              class="row"
+            >
+              <div
+                class="col-lg-8"
+              >
+                <input
+                  class="mb-2 form-control form-control-lg"
+                  id="searchInput"
+                  placeholder="Enter the movie or TV show name here..."
+                />
+              </div>
+              <div
+                class="col-lg-4"
+              >
+                <div
+                  class="mt-2 form-check"
+                >
+                  <input
+                    class="form-check-input"
+                    id="includeTVShows"
+                    type="checkbox"
+                  />
+                  <label
+                    class="form-check-label"
+                    for="includeTVShows"
+                    title=""
+                  >
+                    Include TV Shows
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="container"
+      >
+        <div
+          class="alert alert-danger alert-dismissible"
+        >
+          We were unable to complete search at this time. Please try later!
+        </div>
+        <div
+          id="search-results"
+        >
+          <h3 />
+          <ul
+            class="list-unstyled"
+          />
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`renders Movie application with input field with movie and TV placeholder 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="MovieApplication"
+      >
+        <div
+          class="p-3 container"
+        >
+          <div
+            class="jumbotron"
+          >
+            <h1
+              class="text-center mb-4"
+            >
+              🎥 Movie and TV Show Search Application
+            </h1>
+            <div
+              class="container-fluid"
+            >
+              <div
+                class="row"
+              >
+                <div
+                  class="col-lg-8"
+                >
+                  <input
+                    class="mb-2 form-control form-control-lg"
+                    id="searchInput"
+                    placeholder="Enter the movie or TV show name here..."
+                  />
+                </div>
+                <div
+                  class="col-lg-4"
+                >
+                  <div
+                    class="mt-2 form-check"
+                  >
+                    <input
+                      class="form-check-input"
+                      id="includeTVShows"
+                      type="checkbox"
+                    />
+                    <label
+                      class="form-check-label"
+                      for="includeTVShows"
+                      title=""
+                    >
+                      Include TV Shows
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="container"
+        >
+          <div
+            id="search-results"
+          >
+            <h3>
+              Movie and TV Results for: Movie
+            </h3>
+            <ul
+              class="list-unstyled"
+            >
+              <li
+                class="mt-4 mb-4 media"
+              >
+                <img
+                  class="mr-3 img-thumbnail"
+                  height="200"
+                  src="https://image.tmdb.org/t/p/w200/xyz"
+                  width="133"
+                />
+                <div
+                  class="media-body"
+                >
+                  <h5 />
+                  <pre />
+                  <p>
+                    This movie is a action movie
+                  </p>
+                  <div>
+                    <div>
+                      <svg
+                        aria-hidden="true"
+                        class="svg-inline--fa fa-star fa-w-18 "
+                        data-icon="star"
+                        data-prefix="fas"
+                        focusable="false"
+                        role="img"
+                        style="color: rgb(217, 173, 38);"
+                        viewBox="0 0 576 512"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                          fill="currentColor"
+                        />
+                      </svg>
+                      <svg
+                        aria-hidden="true"
+                        class="svg-inline--fa fa-star fa-w-18 "
+                        data-icon="star"
+                        data-prefix="fas"
+                        focusable="false"
+                        role="img"
+                        style="color: rgb(217, 173, 38);"
+                        viewBox="0 0 576 512"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                          fill="currentColor"
+                        />
+                      </svg>
+                      <svg
+                        aria-hidden="true"
+                        class="svg-inline--fa fa-star fa-w-18 "
+                        data-icon="star"
+                        data-prefix="fas"
+                        focusable="false"
+                        role="img"
+                        style="color: rgb(217, 173, 38);"
+                        viewBox="0 0 576 512"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                          fill="currentColor"
+                        />
+                      </svg>
+                      <svg
+                        aria-hidden="true"
+                        class="svg-inline--fa fa-star fa-w-18 "
+                        data-icon="star"
+                        data-prefix="fas"
+                        focusable="false"
+                        role="img"
+                        style="color: rgb(67, 75, 77);"
+                        viewBox="0 0 576 512"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                          fill="currentColor"
+                        />
+                      </svg>
+                      <svg
+                        aria-hidden="true"
+                        class="svg-inline--fa fa-star fa-w-18 "
+                        data-icon="star"
+                        data-prefix="fas"
+                        focusable="false"
+                        role="img"
+                        style="color: rgb(67, 75, 77);"
+                        viewBox="0 0 576 512"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                          fill="currentColor"
+                        />
+                      </svg>
+                    </div>
+                    <label>
+                       
+                      <span
+                        class="vote-count"
+                      >
+                        61 reviews
+                      </span>
+                    </label>
+                  </div>
+                </div>
+              </li>
+              <li
+                class="mt-4 mb-4 media"
+              >
+                <img
+                  class="mr-3 img-thumbnail"
+                  height="200"
+                  src="https://image.tmdb.org/t/p/w200/xyza"
+                  width="133"
+                />
+                <div
+                  class="media-body"
+                >
+                  <h5 />
+                  <pre />
+                  <p>
+                    This movie is a Drama & Action movie
+                  </p>
+                  <div>
+                    <div>
+                      <svg
+                        aria-hidden="true"
+                        class="svg-inline--fa fa-star fa-w-18 "
+                        data-icon="star"
+                        data-prefix="fas"
+                        focusable="false"
+                        role="img"
+                        style="color: rgb(217, 173, 38);"
+                        viewBox="0 0 576 512"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                          fill="currentColor"
+                        />
+                      </svg>
+                      <svg
+                        aria-hidden="true"
+                        class="svg-inline--fa fa-star fa-w-18 "
+                        data-icon="star"
+                        data-prefix="fas"
+                        focusable="false"
+                        role="img"
+                        style="color: rgb(217, 173, 38);"
+                        viewBox="0 0 576 512"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                          fill="currentColor"
+                        />
+                      </svg>
+                      <svg
+                        aria-hidden="true"
+                        class="svg-inline--fa fa-star fa-w-18 "
+                        data-icon="star"
+                        data-prefix="fas"
+                        focusable="false"
+                        role="img"
+                        style="color: rgb(67, 75, 77);"
+                        viewBox="0 0 576 512"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                          fill="currentColor"
+                        />
+                      </svg>
+                      <svg
+                        aria-hidden="true"
+                        class="svg-inline--fa fa-star fa-w-18 "
+                        data-icon="star"
+                        data-prefix="fas"
+                        focusable="false"
+                        role="img"
+                        style="color: rgb(67, 75, 77);"
+                        viewBox="0 0 576 512"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                          fill="currentColor"
+                        />
+                      </svg>
+                      <svg
+                        aria-hidden="true"
+                        class="svg-inline--fa fa-star fa-w-18 "
+                        data-icon="star"
+                        data-prefix="fas"
+                        focusable="false"
+                        role="img"
+                        style="color: rgb(67, 75, 77);"
+                        viewBox="0 0 576 512"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                          fill="currentColor"
+                        />
+                      </svg>
+                    </div>
+                    <label>
+                       
+                      <span
+                        class="vote-count"
+                      >
+                        10 reviews
+                      </span>
+                    </label>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="MovieApplication"
+    >
+      <div
+        class="p-3 container"
+      >
+        <div
+          class="jumbotron"
+        >
+          <h1
+            class="text-center mb-4"
+          >
+            🎥 Movie and TV Show Search Application
+          </h1>
+          <div
+            class="container-fluid"
+          >
+            <div
+              class="row"
+            >
+              <div
+                class="col-lg-8"
+              >
+                <input
+                  class="mb-2 form-control form-control-lg"
+                  id="searchInput"
+                  placeholder="Enter the movie or TV show name here..."
+                />
+              </div>
+              <div
+                class="col-lg-4"
+              >
+                <div
+                  class="mt-2 form-check"
+                >
+                  <input
+                    class="form-check-input"
+                    id="includeTVShows"
+                    type="checkbox"
+                  />
+                  <label
+                    class="form-check-label"
+                    for="includeTVShows"
+                    title=""
+                  >
+                    Include TV Shows
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="container"
+      >
+        <div
+          id="search-results"
+        >
+          <h3>
+            Movie and TV Results for: Movie
+          </h3>
+          <ul
+            class="list-unstyled"
+          >
+            <li
+              class="mt-4 mb-4 media"
+            >
+              <img
+                class="mr-3 img-thumbnail"
+                height="200"
+                src="https://image.tmdb.org/t/p/w200/xyz"
+                width="133"
+              />
+              <div
+                class="media-body"
+              >
+                <h5 />
+                <pre />
+                <p>
+                  This movie is a action movie
+                </p>
+                <div>
+                  <div>
+                    <svg
+                      aria-hidden="true"
+                      class="svg-inline--fa fa-star fa-w-18 "
+                      data-icon="star"
+                      data-prefix="fas"
+                      focusable="false"
+                      role="img"
+                      style="color: rgb(217, 173, 38);"
+                      viewBox="0 0 576 512"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                    <svg
+                      aria-hidden="true"
+                      class="svg-inline--fa fa-star fa-w-18 "
+                      data-icon="star"
+                      data-prefix="fas"
+                      focusable="false"
+                      role="img"
+                      style="color: rgb(217, 173, 38);"
+                      viewBox="0 0 576 512"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                    <svg
+                      aria-hidden="true"
+                      class="svg-inline--fa fa-star fa-w-18 "
+                      data-icon="star"
+                      data-prefix="fas"
+                      focusable="false"
+                      role="img"
+                      style="color: rgb(217, 173, 38);"
+                      viewBox="0 0 576 512"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                    <svg
+                      aria-hidden="true"
+                      class="svg-inline--fa fa-star fa-w-18 "
+                      data-icon="star"
+                      data-prefix="fas"
+                      focusable="false"
+                      role="img"
+                      style="color: rgb(67, 75, 77);"
+                      viewBox="0 0 576 512"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                    <svg
+                      aria-hidden="true"
+                      class="svg-inline--fa fa-star fa-w-18 "
+                      data-icon="star"
+                      data-prefix="fas"
+                      focusable="false"
+                      role="img"
+                      style="color: rgb(67, 75, 77);"
+                      viewBox="0 0 576 512"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </div>
+                  <label>
+                     
+                    <span
+                      class="vote-count"
+                    >
+                      61 reviews
+                    </span>
+                  </label>
+                </div>
+              </div>
+            </li>
+            <li
+              class="mt-4 mb-4 media"
+            >
+              <img
+                class="mr-3 img-thumbnail"
+                height="200"
+                src="https://image.tmdb.org/t/p/w200/xyza"
+                width="133"
+              />
+              <div
+                class="media-body"
+              >
+                <h5 />
+                <pre />
+                <p>
+                  This movie is a Drama & Action movie
+                </p>
+                <div>
+                  <div>
+                    <svg
+                      aria-hidden="true"
+                      class="svg-inline--fa fa-star fa-w-18 "
+                      data-icon="star"
+                      data-prefix="fas"
+                      focusable="false"
+                      role="img"
+                      style="color: rgb(217, 173, 38);"
+                      viewBox="0 0 576 512"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                    <svg
+                      aria-hidden="true"
+                      class="svg-inline--fa fa-star fa-w-18 "
+                      data-icon="star"
+                      data-prefix="fas"
+                      focusable="false"
+                      role="img"
+                      style="color: rgb(217, 173, 38);"
+                      viewBox="0 0 576 512"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                    <svg
+                      aria-hidden="true"
+                      class="svg-inline--fa fa-star fa-w-18 "
+                      data-icon="star"
+                      data-prefix="fas"
+                      focusable="false"
+                      role="img"
+                      style="color: rgb(67, 75, 77);"
+                      viewBox="0 0 576 512"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                    <svg
+                      aria-hidden="true"
+                      class="svg-inline--fa fa-star fa-w-18 "
+                      data-icon="star"
+                      data-prefix="fas"
+                      focusable="false"
+                      role="img"
+                      style="color: rgb(67, 75, 77);"
+                      viewBox="0 0 576 512"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                    <svg
+                      aria-hidden="true"
+                      class="svg-inline--fa fa-star fa-w-18 "
+                      data-icon="star"
+                      data-prefix="fas"
+                      focusable="false"
+                      role="img"
+                      style="color: rgb(67, 75, 77);"
+                      viewBox="0 0 576 512"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </div>
+                  <label>
+                     
+                    <span
+                      class="vote-count"
+                    >
+                      10 reviews
+                    </span>
+                  </label>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`renders Movie application with input field with movie placeholder 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="MovieApplication"
+      >
+        <div
+          class="p-3 container"
+        >
+          <div
+            class="jumbotron"
+          >
+            <h1
+              class="text-center mb-4"
+            >
+              🎥 Movie Search Application
+            </h1>
+            <div
+              class="container-fluid"
+            >
+              <div
+                class="row"
+              >
+                <div
+                  class="col-lg-8"
+                >
+                  <input
+                    class="mb-2 form-control form-control-lg"
+                    id="searchInput"
+                    placeholder="Enter the movie name here..."
+                  />
+                </div>
+                <div
+                  class="col-lg-4"
+                >
+                  <div
+                    class="mt-2 form-check"
+                  >
+                    <input
+                      class="form-check-input"
+                      id="includeTVShows"
+                      type="checkbox"
+                    />
+                    <label
+                      class="form-check-label"
+                      for="includeTVShows"
+                      title=""
+                    >
+                      Include TV Shows
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="container"
+        >
+          <div
+            id="search-results"
+          >
+            <h3 />
+            <ul
+              class="list-unstyled"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="MovieApplication"
+    >
+      <div
+        class="p-3 container"
+      >
+        <div
+          class="jumbotron"
+        >
+          <h1
+            class="text-center mb-4"
+          >
+            🎥 Movie Search Application
+          </h1>
+          <div
+            class="container-fluid"
+          >
+            <div
+              class="row"
+            >
+              <div
+                class="col-lg-8"
+              >
+                <input
+                  class="mb-2 form-control form-control-lg"
+                  id="searchInput"
+                  placeholder="Enter the movie name here..."
+                />
+              </div>
+              <div
+                class="col-lg-4"
+              >
+                <div
+                  class="mt-2 form-check"
+                >
+                  <input
+                    class="form-check-input"
+                    id="includeTVShows"
+                    type="checkbox"
+                  />
+                  <label
+                    class="form-check-label"
+                    for="includeTVShows"
+                    title=""
+                  >
+                    Include TV Shows
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="container"
+      >
+        <div
+          id="search-results"
+        >
+          <h3 />
+          <ul
+            class="list-unstyled"
+          />
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`renders Movie application with search results 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="MovieApplication"
+      >
+        <div
+          class="p-3 container"
+        >
+          <div
+            class="jumbotron"
+          >
+            <h1
+              class="text-center mb-4"
+            >
+              🎥 Movie and TV Show Search Application
+            </h1>
+            <div
+              class="container-fluid"
+            >
+              <div
+                class="row"
+              >
+                <div
+                  class="col-lg-8"
+                >
+                  <input
+                    class="mb-2 form-control form-control-lg"
+                    id="searchInput"
+                    placeholder="Enter the movie or TV show name here..."
+                  />
+                </div>
+                <div
+                  class="col-lg-4"
+                >
+                  <div
+                    class="mt-2 form-check"
+                  >
+                    <input
+                      class="form-check-input"
+                      id="includeTVShows"
+                      type="checkbox"
+                    />
+                    <label
+                      class="form-check-label"
+                      for="includeTVShows"
+                      title=""
+                    >
+                      Include TV Shows
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="container"
+        >
+          <div
+            id="search-results"
+          >
+            <h3>
+              Movie and TV Results for: a
+            </h3>
+            <ul
+              class="list-unstyled"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="MovieApplication"
+    >
+      <div
+        class="p-3 container"
+      >
+        <div
+          class="jumbotron"
+        >
+          <h1
+            class="text-center mb-4"
+          >
+            🎥 Movie and TV Show Search Application
+          </h1>
+          <div
+            class="container-fluid"
+          >
+            <div
+              class="row"
+            >
+              <div
+                class="col-lg-8"
+              >
+                <input
+                  class="mb-2 form-control form-control-lg"
+                  id="searchInput"
+                  placeholder="Enter the movie or TV show name here..."
+                />
+              </div>
+              <div
+                class="col-lg-4"
+              >
+                <div
+                  class="mt-2 form-check"
+                >
+                  <input
+                    class="form-check-input"
+                    id="includeTVShows"
+                    type="checkbox"
+                  />
+                  <label
+                    class="form-check-label"
+                    for="includeTVShows"
+                    title=""
+                  >
+                    Include TV Shows
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="container"
+      >
+        <div
+          id="search-results"
+        >
+          <h3>
+            Movie and TV Results for: a
+          </h3>
+          <ul
+            class="list-unstyled"
+          />
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
